@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.quo-gen {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background: rgba(209, 200, 233, 0.801);
+}
+.body-gen {
+    width: 50%;
+    min-height: 60%;
+    background: rgb(98, 218, 210);
+    color: blanchedalmond;
+    border: 5px solid white;
+    margin: 20%;
+}
+.h1 {
+    color: rgb(85, 7, 53);
+    padding: 20px;
+    font-size: 40px;
+    margin: 30px;
+}
+#output {
+    font-size: 39px;
+    border-bottom: 3px solid rgb(128, 0, 122);
+    color: rgb(128 0 122);
+    padding: 100px;
+}
+#btn {
+    background-color: #80007a;
+    border: none;
+    color: rgb(255 255 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+}
